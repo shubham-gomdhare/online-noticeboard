@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DIEMS</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="signup_txt">Not registered? SignUp here!</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login_txt">Already registered? Login here!</string>
+    <string name="need_email_txt">We just need your registered Email ID to sent you password reset instructions</string>
+    <string name="login_again">Try again</string>
+    <string name="TYPE">TYPE</string>
+    <string name="username">Username</string>
+
+    <array name="topics">
+        <item>notifications</item>
+        <item>promotional_messages</item>
+    </array>
+
+</resources>

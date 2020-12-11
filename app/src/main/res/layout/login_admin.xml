@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="2dp"
+        app:title="Admin Login"
+        app:titleMarginStart="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/relative_login"
+        android:layout_width="380dp"
+        android:layout_height="475dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:drawable/divider_horizontal_dark"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="70dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="30dp">
+        <Spinner
+            android:id="@+id/spinner"
+            android:prompt="@string/TYPE"
+            android:ems="10"
+            android:autofillHints=""
+            android:textAlignment="textStart"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/admin_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/admin_pass"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/admin_login_btn"
+
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/login"
+            android:focusable="true" />
+    </LinearLayout>
+</RelativeLayout>

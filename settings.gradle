@@ -1,0 +1,2 @@
+rootProject.name='DIEMS'
+include ':app'

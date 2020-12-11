@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583423696622",
+    "firebase_url": "https://sghostdiems.firebaseio.com",
+    "project_id": "sghostdiems",
+    "storage_bucket": "sghostdiems.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583423696622:android:6f1b1d839276defc6cddff",
+        "android_client_info": {
+          "package_name": "com.sghost.diems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583423696622-c6ejtl5dltrq68pc0ggja3uptf6kfkkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sghost.diems",
+            "certificate_hash": "5d7f37a20bf067965a1dc0523ba7e018035bba00"
+          }
+        },
+        {
+          "client_id": "583423696622-gvi08pvqn4ghmfbv1hcevrv6fc9a4e67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY2mhN2_rZNZrXgIUour1inrqKn9pnPBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583423696622-gvi08pvqn4ghmfbv1hcevrv6fc9a4e67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

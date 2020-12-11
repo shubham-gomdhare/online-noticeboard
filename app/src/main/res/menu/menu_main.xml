@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <group>
+    <item
+        android:id="@+id/upload_notice"
+        android:orderInCategory="100"
+        android:title="Upload New Notice"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:title="Search"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_user"
+        android:orderInCategory="300"
+        android:title="User"
+        app:showAsAction="never" />
+        <item
+            android:id="@+id/signoutButton"
+            android:orderInCategory="400"
+            android:title="Sign Out"/>
+    </group>
+
+</menu>

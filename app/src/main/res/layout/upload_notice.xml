@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/choose_image_btn"
+    android:text="Choose Image"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/file_name"
+    android:layout_toEndOf="@+id/choose_image_btn"
+    android:hint="Notice Title"
+    android:autofillHints="" />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/image_view"
+    android:layout_margin="16dp"
+    android:layout_above="@+id/progress_bar"
+    android:layout_below="@+id/file_name"/>
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/progress_bar"
+    android:layout_marginBottom="16dp"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:layout_above="@+id/upload_notice_btn"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="UPLOAD"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/upload_notice_btn"/>
+<Button
+    android:layout_width="wrap_content"
+    android:id="@+id/home_btn"
+    android:text="Home"
+    android:layout_marginLeft="20dp"
+    android:layout_toEndOf="@+id/upload_notice_btn"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>
